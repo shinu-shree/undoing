@@ -1,0 +1,8 @@
+# Undoing the changes:
+
+# undo/revert local changes from source area in exits files. ie. present in remote repo.
+	$ git checkout <filename>
+
+# Unstage the changes from STAGE area
+	$ git reset HEAD <filename>
+
